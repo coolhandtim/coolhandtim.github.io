@@ -1,0 +1,97 @@
+[
+    {
+        "name": "Tortilla Pizzas",
+        "difficulty": "easy",
+        "time": "fast"
+    },
+    {
+        "name": "Charcuterie",
+        "difficulty": "easy",
+        "time": "fast"
+    },
+    {
+        "name": "Cereal",
+        "difficulty": "easy",
+        "time": "fast"
+    },
+    {
+        "name": "Brown Butter and Balsamic Ravioli",
+        "difficulty": "easy",
+        "time": "medium"
+    },
+    {
+        "name": "Spaghetti",
+        "difficulty": "easy",
+        "time": "medium"
+    },
+    {
+        "name": "Breakfast Sandwiches",
+        "difficulty": "easy",
+        "time": "medium"
+    },
+    {
+        "name": "Pulled Pork",
+        "difficulty": "easy",
+        "time": "slow"
+    },
+    {
+        "name": "Pork Carnitas",
+        "difficulty": "medium",
+        "time": "slow"
+    },
+    {
+        "name": "Brats and Hotdogs",
+        "difficulty": "easy",
+        "time": "fast"
+    },
+    {
+        "name": "\"Chipotle\" Tacos",
+        "difficulty": "medium",
+        "time": "medium"
+    },
+    {
+        "name": "Biscuits and Gravy",
+        "difficulty": "medium",
+        "time": "medium"
+    },
+    {
+        "name": "Mushroom Pasta",
+        "difficulty": "easy",
+        "time": "medium"
+    },
+    {
+        "name": "Chimichangas",
+        "difficulty": "medium",
+        "time": "medium"
+    },
+    {
+        "name": "Greek Chicken Flatbreads",
+        "difficulty": "medium",
+        "time": "slow"
+    },
+    {
+        "name": "Mac and Cheese",
+        "difficulty": "easy",
+        "time": "medium"
+    },
+    {
+        "name": "Buttermilk Pancakes",
+        "difficulty": "easy",
+        "time": "slow"
+    },
+    {
+        "name": "Burgers",
+        "difficulty": "medium",
+        "time": "medium"
+    },
+    {
+        "name": "Mexican Pizzas",
+        "difficulty": "Hard",
+        "time": "medium"
+    },
+    {
+        "name": "Strombolis",
+        "difficulty": "easy",
+        "time": "fast"
+    }
+]
