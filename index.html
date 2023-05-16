@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Meal Planner</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link href="meals.json.txt" type="text/json" <link rel="icon" type="image/jpeg" href="IMG_0096.jpeg" />
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
+    </style>
+    <title>Meal Planner</title>
+</head>
+
+<body>
+    <h1>Meal Planner</h1>
+    <div class="monday">
+        <h2>Monday</h2>
+        <div class="dropdown">
+            <strong>Difficulty Level</strong>
+            <select id="difficulty0" class="drop" name="drop">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+        </div>
+        </select>
+    </div>
+    <br></br>
+    <div class="dropdown">
+        <strong>Time Level</strong>
+        <select id="time0" class="drop" name="time">
+            <option value="">Any</option>
+            <option value="fast">Fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow</option>
+    </div>
+    </select>
+    <br></br>
+    <button onclick="randomizeMeal(0)" class="submit">Submit</button>
+    <p id="meal0"></p>
+    </div>
+
+    <div class="tuesday">
+        <h2>Tuesday</h2>
+        <div class="dropdown">
+            <strong>Difficulty Level</strong>
+            <select id="difficulty1" class="drop" name="drop">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+        </div>
+        </select>
+    </div>
+    <br></br>
+    <div class="dropdown">
+        <strong>Time Level</strong>
+        <select id="time1" class="drop" name="time">
+            <option value="">Any</option>
+            <option value="fast">Fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow</option>
+    </div>
+    </select>
+    <br></br>
+    <button onclick="randomizeMeal(1)" class="submit">Submit</button>
+    <p id="meal1"></p>
+    </div>
+
+    <div class="wednesday">
+        <h2>Wednesday</h2>
+        <div class="dropdown">
+            <strong>Difficulty Level</strong>
+            <select id="difficulty2" class="drop" name="drop">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+        </div>
+        </select>
+    </div>
+    <br></br>
+    <div class="dropdown">
+        <strong>Time Level</strong>
+        <select id="time2" class="drop" name="time">
+            <option value="">Any</option>
+            <option value="fast">Fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow</option>
+    </div>
+    </select>
+    <br></br>
+    <button onclick="randomizeMeal(2)" class="submit">Submit</button>
+    <p id="meal2"></p>
+    </div>
+
+    <div class="thursday">
+        <h2>Thursday</h2>
+        <div class="dropdown">
+            <strong>Difficulty Level</strong>
+            <select id="difficulty3" class="drop" name="drop">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+        </div>
+        </select>
+    </div>
+    <br></br>
+    <div class="dropdown">
+        <strong>Time Level</strong>
+        <select id="time3" class="drop" name="time">
+            <option value="">Any</option>
+            <option value="fast">Fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow</option>
+    </div>
+    </select>
+    <br></br>
+    <button onclick="randomizeMeal(3)" class="submit">Submit</button>
+    <p id="meal3"></p>
+    </div>
+
+    <div class="friday">
+        <h2>Friday</h2>
+        <div class="dropdown">
+            <strong>Difficulty Level</strong>
+            <select id="difficulty4" class="drop" name="drop">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+        </div>
+        </select>
+    </div>
+    <br></br>
+    <div class="dropdown">
+        <strong>Time Level</strong>
+        <select id="time4" class="drop" name="time">
+            <option value="">Any</option>
+            <option value="fast">Fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow</option>
+    </div>
+    </select>
+    <br></br>
+    <button onclick="randomizeMeal(4)" class="submit">Submit</button>
+    <p id="meal4"></p>
+    </div>
+
+    <div class="saturday">
+        <h2>Saturday</h2>
+        <div class="dropdown">
+            <strong>Difficulty Level</strong>
+            <select id="difficulty5" class="drop" name="drop">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+        </div>
+        </select>
+    </div>
+    <br></br>
+    <div class="dropdown">
+        <strong>Time Level</strong>
+        <select id="time5" class="drop" name="time">
+            <option value="">Any</option>
+            <option value="fast">Fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow</option>
+    </div>
+    </select>
+    <br></br>
+    <button onclick="randomizeMeal(5)" class="submit">Submit</button>
+    <p id="meal5"></p>
+    </div>
+    <div class="sunday">
+        <h2>Sunday</h2>
+        <div class="dropdown">
+            <strong>Difficulty Level</strong>
+            <select id="difficulty6" class="drop" name="drop">
+                <option value="">Any</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+        </div>
+        </select>
+    </div>
+    <br></br>
+    <div class="dropdown">
+        <strong>Time Level</strong>
+        <select id="time6" class="drop" name="time">
+            <option value="">Any</option>
+            <option value="fast">Fast</option>
+            <option value="medium">Medium</option>
+            <option value="slow">Slow</option>
+    </div>
+    </select>
+    <br></br>
+    <button onclick="randomizeMeal(6)" class="submit">Submit</button>
+    <p id="meal6"></p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="./scripts.js"></script>
+
+</body>
+
+</html>
