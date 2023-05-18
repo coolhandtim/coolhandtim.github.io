@@ -35,12 +35,12 @@ function randomizeMeal(day) {
     }
 
     if (availableMeals.length === 0) {
-        mealEl.textContent = 'No meals available.';
+        mealEl.textContent = 'No matching meals 😞';
     } else {
         let meal;
         do {
             meal = availableMeals[Math.floor(Math.random() * availableMeals.length)];
         } while (mealEl.textContent === meal.name && availableMeals.length > 1);
-        mealEl.textContent = meal.name;
+        mealEl.textContent = meal.name + '?';
     }
 }
